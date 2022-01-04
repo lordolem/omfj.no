@@ -14,3 +14,11 @@
 .footer p {
     word-break: break-all;
 }
+
+#intro {
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

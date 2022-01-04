@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/projects.css">
-    <title>OMFJ</title>
+    <title>OMFJ - Miele CLI</title>
 </head>
 <body>
     <div class="main">

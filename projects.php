@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/projects.css">
-    <title>OMFJ</title>
+    <title>OMFJ - Projects</title>
 </head>
 <body>
     <div class="main">
@@ -25,6 +25,9 @@
                 <a class="take-a-look" href="project/miele-cli.php">Take a look!</a>
             </div>
         </div>
+        <p style="text-align:center;">
+            More over at my <a style="color:#0085FA;text-decoration:none;" href="https://www.github.com/lordolem">Github</a>!
+        </p>
     </div>
 </body>
 </html>

@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/contact.css">
-    <title>OMFJ</title>
+    <title>OMFJ - Contact</title>
 </head>
 <body>
     <div class="main">
@@ -17,9 +17,15 @@
             <p>Feel fre to contact me if you have any inquiries :)</p>
         </center>
         <div class="social-media-links">
-            <a href="https://www.github.com/lordolem"><img class="social-media-img" src="images/github.png"/></a>
-            <a href="https://www.instagram.com/lordolem"><img class="social-media-img" src="images/instagram.png"/></a>
-            <a href="https://www.linkedin.com/in/olemagnusjohnsen"><img class="social-media-img" src="images/linkedin.png"/></a>
+            <a href="https://www.github.com/lordolem">
+                <img class="social-media-img" src="images/github.png"/>
+            </a>
+            <a href="https://www.instagram.com/lordolem">
+                <img class="social-media-img" src="images/instagram.png"/>
+            </a>
+            <a href="https://www.linkedin.com/in/olemagnusjohnsen">
+                <img class="social-media-img" src="images/linkedin.png"/>
+            </a>
         </div>
     </div>
 </body>

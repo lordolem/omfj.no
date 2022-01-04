@@ -13,7 +13,9 @@
     <div class="main">
         <h1>Projects</h1>
         <?php include "include/nav.php"; ?>
-        <p>Feel fre to contact me if you have any inquiries :)</p>
+        <center>
+            <p>Feel fre to contact me if you have any inquiries :)</p>
+        </center>
         <div class="social-media-links">
             <a href="https://www.github.com/lordolem">Github</a>
             <a href="https://www.instagram.com/lordolem">Instagram</a>

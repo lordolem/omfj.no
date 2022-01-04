@@ -1,5 +1,4 @@
 .footer {
-    text-align: center;
     background-color: #212121;
     position: absolute;
     bottom: 0;
@@ -13,6 +12,7 @@
 
 .footer p {
     word-break: break-all;
+    text-align: center;
 }
 
 #intro {

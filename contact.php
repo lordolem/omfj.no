@@ -17,9 +17,9 @@
             <p>Feel fre to contact me if you have any inquiries :)</p>
         </center>
         <div class="social-media-links">
-            <a href="https://www.github.com/lordolem">Github</a>
-            <a href="https://www.instagram.com/lordolem">Instagram</a>
-            <a href="https://www.linkedin.com/in/olemagnusjohnsen">Linkedin</a>
+            <a href="https://www.github.com/lordolem"><img class="social-media-img" src="images/github.png"/></a>
+            <a href="https://www.instagram.com/lordolem"><img class="social-media-img" src="images/instagram.png"/></a>
+            <a href="https://www.linkedin.com/in/olemagnusjohnsen"><img class="social-media-img" src="images/linkedin.png"/></a>
         </div>
     </div>
 </body>

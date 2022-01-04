@@ -4,6 +4,7 @@
     justify-content: space-between;
 }
 
-.social-media-links a {
-    color: white;
+.social-media-img {
+    height: 50px;
+    width: 50px;
 }

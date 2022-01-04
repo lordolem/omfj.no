@@ -1,0 +1,9 @@
+.social-media-links {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.social-media-links a {
+    color: white;
+}

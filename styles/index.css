@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+    background-color: #212121;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+
+.footer p {
+    word-break: break-all;
+}

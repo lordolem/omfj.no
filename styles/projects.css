@@ -1,0 +1,21 @@
+.projects-list div {
+    border-left: 3px solid #3a3ca1;
+    padding: 14px 12px;
+}
+
+.projects-list div a {
+    color: white;
+    font-size: large;
+}
+
+.projects-list div .take-a-look {
+    background-color: #4e4e4e;
+    font-size: medium;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.projects-list div:not(:last-child) {
+    margin-bottom: 20px;
+}

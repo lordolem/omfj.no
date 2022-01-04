@@ -17,12 +17,12 @@
             <div>
                 <p class="project-title">Kurvmatte</p>
                 <p>A math game I made for my computer class in high school.</p>
-                <a class="take-a-look" href="project/kurvmatte/index.html">Take a look!</a>
+                <a class="take-a-look" href="project/kurvmatte/index">Take a look!</a>
             </div>
             <div>
                 <p class="project-title">Miele Logic CLI</p>
                 <p>I commandline-interface for checking the progress of my miele washer/dyer.</p>
-                <a class="take-a-look" href="project/miele-cli.php">Take a look!</a>
+                <a class="take-a-look" href="project/miele-cli">Take a look!</a>
             </div>
         </div>
         <p style="text-align:center;">

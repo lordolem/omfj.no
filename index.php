@@ -15,7 +15,9 @@
         <?php include "include/nav.php"; ?>
         <div class="content">
             <p id="intro">
-                Hello! I am a student from Norway studying cybersecurity at the University of Bergen.
+                <b>Hello, world!</b> 
+                <br>
+                I am a student from Norway studying cybersecurity at the University of Bergen.
             </p>
         </div>
     </div>

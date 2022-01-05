@@ -18,6 +18,10 @@
                 A program that uses the Miele Logic API (kind, uses curl idk) to check the progress of the dryers and washers at my student complex.
             </p>
             <p>
+                <b>Please note.</b>
+                The authorization header is removed, because I don't know if it should be public or not yet. So the script wont work "out of the box".
+            </p>
+            <p>
                 <b>Example output:</b>
                 <img 
                     src="../images/miele-example.png" 

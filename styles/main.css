@@ -36,7 +36,9 @@ html, body {
 }
 
 .nav li:hover {
+    transition: .3s;
     background-color: #515151;
+    border-radius: 10px;
 }
 
 .content {

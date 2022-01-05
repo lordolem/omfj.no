@@ -13,9 +13,11 @@
     <div class="main">
         <h1>Ole Magnus</h1>
         <?php include "include/nav.php"; ?>
-        <p id="intro">
-            Hello, I am a student from Norway studying cybersecurity at the University of Bergen.
-        </p>
+        <div class="content">
+            <p id="intro">
+                Hello! I am a student from Norway studying cybersecurity at the University of Bergen.
+            </p>
+        </div>
     </div>
     <div class="footer">
         <p>

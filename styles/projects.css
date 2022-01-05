@@ -1,5 +1,5 @@
 .projects-list div {
-    border-left: 3px solid #3a3ca1;
+    border-left: 3px solid #0085FA;
     padding: 10px 15px;
 }
 
@@ -28,6 +28,11 @@
 }
 
 .project-info p {
-    border-left: 3px solid #3a3ca1;
+    border-left: 3px solid #0085FA;
     padding: 10px 15px;
+}
+
+.project-info img {
+    width: 100%;
+    max-width: 400px;
 }

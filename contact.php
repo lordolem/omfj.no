@@ -13,19 +13,21 @@
     <div class="main">
         <h1>Projects</h1>
         <?php include "include/nav.php"; ?>
-        <center>
-            <p>Feel fre to contact me if you have any inquiries :)</p>
-        </center>
-        <div class="social-media-links">
-            <a href="https://www.github.com/lordolem">
-                <img class="social-media-img" src="images/github.png"/>
-            </a>
-            <a href="https://www.instagram.com/lordolem">
-                <img class="social-media-img" src="images/instagram.png"/>
-            </a>
-            <a href="https://www.linkedin.com/in/olemagnusjohnsen">
-                <img class="social-media-img" src="images/linkedin.png"/>
-            </a>
+        <div class="content">
+            <center>
+                <p>Feel fre to contact me if you have any inquiries :)</p>
+            </center>
+            <div class="social-media-links">
+                <a href="https://www.github.com/lordolem">
+                    <img class="social-media-img" src="images/github.png"/>
+                </a>
+                <a href="https://www.instagram.com/lordolem">
+                    <img class="social-media-img" src="images/instagram.png"/>
+                </a>
+                <a href="https://www.linkedin.com/in/olemagnusjohnsen">
+                    <img class="social-media-img" src="images/linkedin.png"/>
+                </a>
+            </div>
         </div>
     </div>
 </body>

@@ -13,21 +13,30 @@
     <div class="main">
         <h1>Projects</h1>
         <?php include "include/nav.php"; ?>
-        <div class="projects-list">
-            <div>
-                <p class="project-title">Kurvmatte</p>
-                <p>A math game I made for my computer class in high school.</p>
-                <a class="take-a-look" href="project/kurvmatte/index">Take a look!</a>
+        <div class="content">
+            <div class="projects-list">
+                <div>
+                    <p class="project-title">This website!</p>
+                    <p>The code is on Github. Feedback is appreciated.</p>
+                    <a class="take-a-look" href="https://www.github.com/lordolem/omfj.no">Take a look!</a>
+                </div>
+
+                <div>
+                    <p class="project-title">Kurvmatte</p>
+                    <p>A math game I made for my computer class in high school.</p>
+                    <a class="take-a-look" href="project/kurvmatte/index">Take a look!</a>
+                </div>
+
+                <div>
+                    <p class="project-title">Miele Logic CLI</p>
+                    <p>I command line interface for checking the progress of my miele washer/dyer.</p>
+                    <a class="take-a-look" href="project/miele-cli">Take a look!</a>
+                </div>
             </div>
-            <div>
-                <p class="project-title">Miele Logic CLI</p>
-                <p>I commandline-interface for checking the progress of my miele washer/dyer.</p>
-                <a class="take-a-look" href="project/miele-cli">Take a look!</a>
-            </div>
+            <p style="text-align:center;">
+                More on my <a style="color:#0085FA;text-decoration:none;" href="https://www.github.com/lordolem">Github</a>!
+            </p>
         </div>
-        <p style="text-align:center;">
-            More over at my <a style="color:#0085FA;text-decoration:none;" href="https://www.github.com/lordolem">Github</a>!
-        </p>
     </div>
 </body>
 </html>

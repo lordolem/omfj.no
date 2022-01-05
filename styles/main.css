@@ -26,10 +26,8 @@ html, body {
     display: flex;
     justify-content: space-evenly;
 }
-
 .nav li {
-    padding: 12px 12px;
-    border-radius: 10px;
+    padding: 8px 10px;
 }
 
 .nav a {
@@ -38,10 +36,9 @@ html, body {
 }
 
 .nav li:hover {
-    background-color: #414141;
-    transition: .5s;
+    background-color: #515151;
 }
 
-.nav a:not(:first-child) {
-    border-left: 1px solid white;
+.content {
+    margin-top: 40px;
 }

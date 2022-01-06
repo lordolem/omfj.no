@@ -27,7 +27,7 @@
                     src="../images/miele-example.png" 
                 >
             <p>
-                <a class="take-a-look" href="miele.zip">Download</a>
+                <a class="take-a-look" href="https://github.com/lordolem/miele-cli">Download</a>
             </p>
         </div>
     </div>

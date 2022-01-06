@@ -1,0 +1,180 @@
+/* Define the body and html of the site. */
+html, body {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Inconsolata';
+    background-color: white;
+    height: 100%;
+    font-size: 100%;
+}
+/* - */
+/* Tell the site to use "Inconsolata". */
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 100;
+    src: url("fonts/inconsolata.woff") format('woff');
+}
+/* - */
+/* How the header should look and act like. */
+.header {
+    background-color: white;
+    height: 100px;
+    display: block;
+    padding: .5em 1em .5em 1em;
+    color: black;
+    text-transform: uppercase;
+    align: center;
+    margin: 0em 0em .5em 0em;
+    -webkit-box-shadow:  0px 1px 30px 2px black;
+    -moz-box-shadow:  0px 1px 30px 2px black;
+    box-shadow:  0px 1px 30px 2px black;
+}
+.main-logo {
+    display: inline;
+    color: #3a3a3a;
+    line-height: 2em;
+    margin: .1em .1em 0em .1em;
+    float: left;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+.menu {
+    display: inline;
+    float: right;
+    line-height: 20px;
+    list-style: none;
+    padding: 0em 0em 0em 0em;
+    margin: 0em;
+    margin-top: 3em;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 1.25em;
+    border-bottom: 2px solid #3a3a3a;
+}  
+.menu a:hover {
+    background-color: #e7e7e7;
+}
+/* How the dropdown button inside of the header should act and look like. */
+.dropbtn {
+    color: black;
+    background: none;
+    padding: 10px;
+    font-size: 1em;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    border: none;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 1.25em;
+    border-bottom: 2px solid #3a3a3a;
+}
+.dropbtn:hover {
+    color: #3a3a3a;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    padding: 20px;
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 0) !important;
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* - */
+/* - */
+/* Style the back-button */
+.back-button {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    padding: 1em;
+    margin: 3em auto 1em auto;
+    background-color: #e7e7e7;
+    transition: 0.4s;
+    border: none;
+}
+.back-button a {
+    display: block;
+    color: white;
+    font-size: 1em;
+    transition: 0.4s;
+    text-decoration: none;
+    text-align: center;
+}
+.back-button a:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+/* - */
+/* MAKE THE SITE MORE RESPONSIVE */
+@media only screen and (max-width: 1050px) {
+    .menu {
+        display: block;
+        float: none;
+        margin: 0em;
+        text-align: center;
+    }
+    .dropbtn {
+        text-align: center;
+    }
+    .header {
+        height: auto;
+        text-align: center;
+    }
+    .main-logo {
+        float: none;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .header {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .menu {
+        padding: 20px;
+    }
+    .menu a, .dropbtn {
+        display: block;
+        width: 150px;
+        margin: .5em auto .5em auto;
+    }
+    .dropbtn {
+        display: block;
+        width: 170px;
+        padding: 10px;
+        height: 42px;
+    }
+    .dropdown-content {
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 444px) {
+    .main-logo {
+        font-size: 2em;
+    }
+}

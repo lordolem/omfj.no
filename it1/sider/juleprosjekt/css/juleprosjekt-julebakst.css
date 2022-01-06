@@ -1,0 +1,66 @@
+html, body {
+    background: url(../bilder/candycane.jpg);
+}
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+	padding: 10px;
+	margin: 4em auto 5em auto;
+	width: 95%;
+}
+.bilder {
+	padding: 10px;
+	background-color: #F8EDCC;
+	border: 3px solid #2C6A61;
+	border-radius: 0.5em;
+	font-size: 30px;
+	text-align: center;
+    margin: 1em 0.5em;
+    width: 50%;
+}
+.bilder ol, ul {
+	font-size: 0.5em;
+}
+.bilder img {
+	border-radius: 0.5em;
+    border: 2px solid #2C6A61;
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    padding: 0em;
+}
+.info-box {
+	text-align: center;
+	margin: 2em auto 2em auto;
+	width: 50%;
+	background-color: #F8EDCC;
+	border: 3px solid #2C6A61;
+	border-radius: 0.5em;
+}
+.liten-skrift {
+    font-size: 0.5em;
+    font-weight: 100;
+}
+.fremgangsmåte {
+	font-size: .5em;
+}
+.todeling {
+	display: flex;
+	width: 40%;
+	text-align: cetner;
+}
+.box {
+	display: block;
+	margin: 1em;
+}
+@media only screen and (max-width: 666px) {
+	.bilder {
+		width: 75%;
+	}
+	.info-box {
+		width: 80%;
+	}
+}

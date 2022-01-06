@@ -1,0 +1,47 @@
+.table-box {
+  margin: 4em auto 10em auto;
+  border: 2px solid #3a3a3a;
+  width: 60%;
+  display: flex;
+}
+.tg  {
+  border-collapse: collapse;
+  text-transform: uppercase;
+  width: 100%;
+}
+.tg td {
+  font-size: 1em;
+  padding: 1em .5em;
+  word-break: normal;
+}
+.tg th {
+  font-size: 1em;
+  font-weight: normal;
+  padding: 1em .5em;
+  border-style: solid;
+  border-width: 0em;
+  width: auto;
+  overflow: hidden;
+  word-break: normal;
+  font-weight: bolder;
+  -webkit-text-stroke: .2px black;
+}
+.tg .content-table {
+  background-color: #c0c0c0;
+  border-color: inherit;
+  color: #3a3a3a;
+  text-align: center;
+  vertical-align: top;
+}
+.tg .top-table {  
+  background-color: #968C6D;
+  color: #3a3a3a;
+  text-align: center;
+  vertical-align: top;
+  border-bottom: 2px solid #3a3a3a;
+}
+@media only screen and (max-width: 570px) {
+  .table-box {
+    width: 80%;
+  }
+}

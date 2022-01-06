@@ -1,0 +1,48 @@
+html, body {
+    background: url(../bilder/candycane.jpg);
+}
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+	padding: 10px;
+	margin: 4em auto 5em auto;
+	width: 95%;
+}
+.video {
+	padding: 10px;
+	background-color: #F8EDCC;
+	border: 3px solid #2C6A61;
+	border-radius: 0.5em;
+	font-size: 30px;
+	text-align: center;
+	margin: 1em 0.5em;
+}
+.video p {
+	font-size: 0.5em;
+}
+.video iframe {
+	border-radius: 0.5em;
+	border: 2px solid #2C6A61;
+	width: 436px;
+	height: 250px;
+}
+.info-box {
+	text-align: center;
+	margin: 2em auto 2em auto;
+	width: 50%;
+	background-color: #F8EDCC;
+	border: 3px solid #2C6A61;
+	border-radius: 0.5em;
+}
+@media only screen and (max-width: 666px) {
+	.video iframe {
+		height: auto;
+		width: auto;
+	}
+	.info-box {
+		width: 80%;
+	}
+}

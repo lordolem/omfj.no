@@ -1,0 +1,38 @@
+/* Define the body and html of the site. */
+html, body {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Futura Std Book';
+    letter-spacing: 0.2em;
+    background: url(../bilder/candycane.jpg);
+    height: 100%;
+    font-size: 100%;
+}
+/* - */
+/* */
+.welcome {
+    text-align: center;
+    width: 40%;
+    margin: 4em auto 5em auto;
+    border: 3px solid #2C6A61;
+    background-color: #F8EDCC;
+    padding: 10px;
+    border-radius: 0.5em;
+}
+.welcome h1 {
+    color: #D9283C;
+    margin: 0px;
+    padding: 5px;
+}
+.welcome p {
+    font-size: 1em;
+    text-align: center;
+    color: #2C6A61;
+}
+/* - */
+/* MAKE THE SITE MORE RESPONSIVE */
+@media only screen and (max-width: 700px) {
+    .welcome {
+        width: 70%;
+    }
+}

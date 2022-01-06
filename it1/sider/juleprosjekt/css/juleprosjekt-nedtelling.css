@@ -1,0 +1,32 @@
+html, body {
+    background: url(../bilder/candycane.jpg);
+}
+.nedtelling {
+    text-align: center;
+    width: 60vw;
+    margin: 4em auto 5em auto;
+    border: 3px solid #2C6A61;
+    background-color: #F8EDCC;
+    padding: 10px;
+    border-radius: 0.5em;
+}
+.nedtelling h1 {
+    color: #D9283C;
+    margin: 0px;
+    text-decoration: bolder;
+    font-size: 4em;
+    padding: 5px;
+    border-bottom: 2px solid #2C6A61;
+}
+.nedtelling p {
+    font-size: 2em;
+    color: #2C6A61;
+}
+@media only screen and (max-width: 570px) {
+    .nedtelling h1 {
+        font-size: 2em;
+    }
+    .nedtelling p {
+        font-size: 1em;
+    }
+}

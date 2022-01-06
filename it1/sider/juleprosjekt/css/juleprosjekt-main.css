@@ -1,0 +1,139 @@
+/* Define the body and html of the site. */
+html, body {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Futura Std Book';
+    letter-spacing: 0.2em;
+    background-color: #F8EDCC;
+    height: 100%;
+    font-size: 100%;
+}
+/* - */
+/* Tell the site to use "Futura Std Book". */
+@font-face {
+    font-family: 'Futura Std Book';
+    font-style: normal;
+    font-weight: 100;
+    src: url("../../fonts/FuturaStdBook.woff") format('woff');
+}
+/* - */
+/* How the header should look and act like. */
+.header {
+    background-color: #2C6A61;
+    display: block;
+    padding: .5em 1em .5em 1em;
+    color: #F8EDCC;
+    text-transform: uppercase;
+    align: center;
+    margin: 0em 0em .5em 0em;
+    height: auto;
+    text-align: center;
+}
+.main-logo {
+    display: inline;
+    color: #D9283C;
+    line-height: 2em;
+    margin: .1em .1em 0em .1em;
+    float: none;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+.menu {
+    line-height: 20px;
+    list-style: none;
+    padding: 0em 0em 0em 0em;
+    margin-top: 3em;
+    display: block;
+    float: none;
+    margin: 0em;
+    text-align: center;
+    background-color: #2C6A61;
+}
+.menu a {
+    color: #F8EDCC;
+    text-decoration: none;
+    padding: 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 1.25em;
+    border-bottom: 2px solid #DB9D20;
+}  
+.menu a:hover {
+    color: #DB9D20;
+}
+/* How the dropdown button inside of the header should act and look like. */
+.dropbtn {
+    color: #F8EDCC;
+    background: none;
+    padding: 10px;
+    font-size: 1em;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    border-bottom: 2px solid #DB9D20;
+    text-align: center;
+}
+.dropbtn:hover {
+    color: #DB9D20;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;    
+    background-color: #2C6A61;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    padding: 20px;
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 0) !important;
+}
+.dropdown-content a {
+    color: #F8EDCC;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* - */
+/* - */
+/* MAKE THE SITE MORE RESPONSIVE */
+@media only screen and (max-width: 570px) {
+    .header {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .menu {
+        padding: 20px;
+    }
+    .menu a, .dropbtn {
+        display: block;
+        width: 150px;
+        margin: .5em auto .5em auto;
+    }
+    .dropbtn {
+        display: block;
+        width: 170px;
+        padding: 10px;
+        height: 42px;
+    }
+    .dropdown-content {
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 444px) {
+    .main-logo {
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,197 @@
+.pictureBox {
+    display: flex;
+    background: #c0c0c0;
+    border-radius: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid #3a3a3a;
+    margin: 2em auto 5em auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 1em;
+    position: relative;
+}
+.headline {
+    text-align: center;
+    background: #968C6D;
+    border-radius: .5em;
+    border: 2px solid #3a3a3a;
+    font-size: 250%;
+    padding: .5em;
+    margin: 2em auto 1em auto;
+    width: 30%;
+    min-width: 1;
+}
+.textAndPicture {
+    display: inline-block;
+    text-align: center;
+    margin: 1em 0em 2em 0em;
+}
+.pictureFrame {
+    transition: 0.4s;
+    margin: 0em 2em 0em 2em;
+    border-radius: 1em;
+    border: 2px solid #3a3a3a;
+    width: auto;
+    height: 200px;
+}
+.pictureFrame:hover {
+    transition: 0.4s;
+    background-color: (10, 10, 10, 10);
+    border-radius: 0.2em;
+    opacity: .7;
+}
+.descriptionPicture {
+    background-color: #968C6D;
+    color: black;
+    margin: auto;
+    padding: .5em;
+    width: 50%;
+}
+.submitKnapp {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #3a3a3a;
+}
+.submitKnapp:hover {
+    background-color: #968C6D;
+    cursor: pointer;
+}
+input[type="text"] {
+    display: block;
+    width: 220px;
+    padding: .5em;
+    color: black;
+    border: 1px solid #3a3a3a;
+    border-radius: 1em;
+    margin: 0em auto 0.7em auto;
+    overflow: hidden;
+}
+input[type="submit"] {
+    display: block;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+.sporsmalForm {
+    width: 30%;
+    margin: 0em auto 8em auto;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid #3a3a3a;
+    background-color: #c0c0c0;
+    border-radius: 1em;
+}
+.sporsmalForm p {
+    text-align: center;
+}
+.infoTable {
+    background-color: #c0c0c0;
+    border: 2px solid #3a3a3a;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0em auto 3em auto;
+    width: 50%;
+}   
+.infoTable td {
+    font-size: 1em;
+    padding: 1em;
+    border-width: 0em;
+    background-color: rgb(57, 92, 126);
+    color: black;
+}
+.infoTable th {
+    padding: 1em;
+    border: none;
+}
+.infoTable .content-table {
+    background-color: #c0c0c0;
+    text-align: center;
+    vertical-align: top;
+}
+.infoTable .top-table {
+    font-weight: bold;
+    background-color: #968C6D;
+    color: black;
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top;
+}
+.info-box {
+    background-color: #c0c0c0;
+    border: 2px solid #3a3a3a;
+    border-radius: 25px;
+    margin: 7em 4em;
+    width: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-box p {
+    text-align: center;
+    padding: 20px 20px;
+    float: none;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+  .pictureBox {
+      width: 60%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .pictureBox {
+      width: 80%;
+  }
+}
+@media only screen and (max-width: 765px) {
+    .headline {
+        width: 80%;
+    }
+    .pictureBox {
+        width: 80%;
+    }
+    .sporsmalForm {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .sporsmalForm {
+        margin-bottom: 5em;
+    }
+    .infoTable {
+        width: 80%;
+    }
+    .pictureBox {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .pictureFrame {
+        width: 240px;
+        height: auto;
+    }
+    .pictureBox {
+        width: 80%;
+    }
+    .sporsmalForm {
+        margin-bottom: 5em;
+    }
+    input[type="text"] {
+        width: 70%;
+    }
+  
+    input[type="submit"] {
+        width: 70%;
+    }
+}

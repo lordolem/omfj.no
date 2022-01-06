@@ -1,0 +1,42 @@
+/* The header of the site.*/
+.welcome h1 {
+    text-align: center;
+    font-size: 4em;
+}
+/* - */
+/* The main text of the site. */
+.main-text {
+    display: block;
+    width: 50%;
+    margin: 0em auto 0em auto;
+}
+.main-text p {
+    margin: 20px;
+    font-size: 1.25em;
+    text-align: center;
+}
+/* - */
+/* The div where all of the site's content is placed */
+.site-content {
+    margin: 20px;
+}
+/* - */
+/* ---------- */
+/* MAKING THE SITE MORE RESPONSIVE */
+@media only screen and (max-width: 1050px) {
+    .latest-news {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .welcome h1 {
+        font-size: 6vh;
+    }
+    .main-text {
+        width: 100%;
+        margin: 2em auto 7.25em auto;
+    }
+    .main-text p {
+        font-size: 1em;
+    }
+}

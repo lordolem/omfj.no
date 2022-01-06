@@ -1,0 +1,36 @@
+/* Define the body and html of the site. */
+html, body {
+    background: url(../bilder/candycane.jpg);
+}
+.brev-innsending {
+    margin: 4em auto 5em auto;
+    width: 50%;
+    background-color: #F8EDCC;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #2C6A61;
+    border-radius: 0.5em;
+}
+.brev-innsending textarea {
+    width: 40vw;
+    max-width: 40vw;
+    min-width: 20vw;
+    max-height: 30vw;
+    min-height: 30vw;
+}
+.brev-innsending input {
+    width: 150px;
+    height: 1.5em;
+}
+@media only screen and (max-width: 727px) {
+    .brev-innsending {
+        width: 80%;
+    }
+    .brev-innsending textarea {
+        width: 55vw;
+        max-width: 55vw;
+        min-width: 30vw;
+        max-height: 40vw;
+        min-height: 40vw;
+    }
+}

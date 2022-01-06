@@ -32,6 +32,12 @@
                     <p>I command line interface for checking the progress of my miele washer/dyer.</p>
                     <a class="take-a-look" href="project/miele-cli">Take a look!</a>
                 </div>
+
+                <div>
+                    <p class="project-title">@TrondheimVaeret på twitter</p>
+                    <p>A dumb script made with python to automatically tweet the temperature in my hometown.</p>
+                    <a class="take-a-look" href="https://github.com/lordolem/trondheimvaeret">Take a look!</a>
+                </div>
             </div>
             <p style="text-align:center;">
                 More on my <a style="color:#0085FA;text-decoration:none;" href="https://www.github.com/lordolem">Github</a>!

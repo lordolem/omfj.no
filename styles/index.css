@@ -1,20 +1,3 @@
-.footer {
-    background-color: #212121;
-    position: absolute;
-    bottom: 0;
-    box-sizing: border-box;
-    width: 100%;
-    overflow: hidden;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 15px;
-}
-
-.footer p {
-    word-break: break-all;
-    text-align: center;
-}
-
 #intro {
     width: 70%;
     text-align: center;

@@ -2,7 +2,6 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
     <link rel="stylesheet" href="styles/main.css">
@@ -36,7 +35,7 @@
                 <div>
                     <p class="project-title">@TrondheimVaeret på twitter</p>
                     <p>A dumb script made with python to automatically tweet the temperature in my hometown.</p>
-                    <a class="take-a-look" href="https://github.com/lordolem/trondheimvaeret">Take a look!</a>
+                    <a class="take-a-look" href="project/trondheimvaeret">Take a look!</a>
                 </div>
             </div>
             <p style="text-align:center;">

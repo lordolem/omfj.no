@@ -23,9 +23,7 @@
             </p>
             <p>
                 <b>Example output:</b>
-                <img 
-                    src="../images/miele-example.png" 
-                >
+                <img src="../images/miele-example.png" alt="Output from Miele in terminal">
             <p>
                 <a class="take-a-look" href="https://github.com/lordolem/miele-cli">Download</a>
             </p>

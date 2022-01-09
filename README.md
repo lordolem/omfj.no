@@ -1,3 +1,3 @@
 # omfj.no
 
-The code of my website
+Visit the website [here](https://www.omfj.no/).

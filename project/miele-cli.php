@@ -19,7 +19,7 @@
             </p>
             <p>
                 <b>Please note.</b>
-                The authorization header is removed, because I don't know if it should be public or not yet. So the script wont work "out of the box".
+                The authorization header is removed. You have to add your own if you want to use the program.
             </p>
             <p>
                 <b>Example output:</b>

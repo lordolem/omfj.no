@@ -15,25 +15,25 @@
         <div class="content">
             <div class="projects-list">
                 <div>
-                    <p class="project-title">This website!</p>
+                    <p class="project-title" style="font-weight:bold;text-decoration:underline;">This website!</p>
                     <p>The code is on Github. Feedback is appreciated.</p>
                     <a class="take-a-look" href="https://www.github.com/lordolem/omfj.no">Take a look!</a>
                 </div>
 
                 <div>
-                    <p class="project-title">Kurvmatte</p>
+                    <p class="project-title" style="font-weight:bold;text-decoration:underline;">Kurvmatte</p>
                     <p>A math game I made for my computer class in high school.</p>
                     <a class="take-a-look" href="project/kurvmatte/index">Take a look!</a>
                 </div>
 
                 <div>
-                    <p class="project-title">Miele Logic CLI</p>
+                    <p class="project-title" style="font-weight:bold;text-decoration:underline;">Miele Logic CLI</p>
                     <p>I command line interface for checking the progress of my miele washer/dyer.</p>
                     <a class="take-a-look" href="project/miele-cli">Take a look!</a>
                 </div>
 
                 <div>
-                    <p class="project-title">@TrondheimVaeret på twitter</p>
+                    <p class="project-title" style="font-weight:bold;text-decoration:underline;">@TrondheimVaeret på twitter</p>
                     <p>A dumb script made with python to automatically tweet the temperature in my hometown.</p>
                     <a class="take-a-look" href="project/trondheimvaeret">Take a look!</a>
                 </div>

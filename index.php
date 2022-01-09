@@ -12,12 +12,9 @@
     <div class="main">
         <h1>Ole Magnus</h1>
         <?php include "include/nav.php"; ?>
-        <div class="content">
-            <p id="intro">
-                <b>Hello, world!</b> 
-                <br>
-                I am a student from Norway studying cybersecurity at the University of Bergen.
-            </p>
+        <div id="intro">
+            <p style="font-weight:900;font-style:italic;">Hello World!</p>
+            <p>I am a student from Norway, studying cybersecurity at the University of Bergen.</p>
         </div>
     </div>
 </body>

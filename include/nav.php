@@ -1,5 +1,5 @@
-<ul class="nav">
-    <li><a href="/">HOME</a></li>
-    <li><a href="/projects">PROJECTS</a></li>
-    <li><a href="/contact">CONTACT</a></li>
-</ul>
+<div class="nav">
+    <a href="/projects">PROJECTS</a>
+    <a href="/">HOME</a>
+    <a href="/contact">CONTACT</a>
+</div>

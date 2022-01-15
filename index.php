@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="fooqD9Qy87n5_vHAJpjZy1hhfsrAXujT2cj6z8OVyH4" />
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/index.css">
     <title>OMFJ - Home</title>

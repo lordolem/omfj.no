@@ -15,7 +15,7 @@
         <?php include "include/nav.php"; ?>
         <div class="content">
             <center>
-                <p>Feel fre to contact me if you have any inquiries :)</p>
+                <p>Feel free to contact me if you have any inquiries :)</p>
             </center>
             <div class="social-media-links">
                 <a href="https://www.github.com/lordolem">

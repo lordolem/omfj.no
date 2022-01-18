@@ -27,7 +27,7 @@
             </p>
             
             <p>
-                <a class="take-a-look" href="https://github.com/lordolem/miele-cli">Github</a>
+                <a class="take-a-look" href="https://github.com/lordolem/trondheimvaeret">Github</a>
             </p>
         </div>
     </div>

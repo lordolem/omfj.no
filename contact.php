@@ -18,13 +18,13 @@
                 <p>Feel free to contact me if you have any inquiries :)</p>
             </center>
             <div class="social-media-links">
-                <a href="https://www.github.com/lordolem">
+                <a href="https://www.github.com/omfj">
                     <img class="social-media-img" src="images/github.png"/>
                 </a>
                 <a href="https://www.instagram.com/lordolem">
                     <img class="social-media-img" src="images/instagram.png"/>
                 </a>
-                <a href="https://www.linkedin.com/in/olemagnusjohnsen">
+                <a href="https://www.linkedin.com/in/omfj">
                     <img class="social-media-img" src="images/linkedin.png"/>
                 </a>
             </div>

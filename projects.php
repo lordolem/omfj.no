@@ -18,7 +18,7 @@
                 <div>
                     <p class="project-title" style="font-weight:bold;text-decoration:underline;">This website!</p>
                     <p>The code is on Github. Feedback is appreciated.</p>
-                    <a class="take-a-look" href="https://www.github.com/lordolem/omfj.no">Take a look!</a>
+                    <a class="take-a-look" href="https://www.github.com/omfj/omfj.no">Take a look!</a>
                 </div>
 
                 <div>
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <p style="text-align:center;">
-                More on my <a style="color:#0085FA;text-decoration:none;" href="https://www.github.com/lordolem">Github</a>!
+                More on my <a style="color:#0085FA;text-decoration:none;" href="https://www.github.com/omfj">Github</a>!
             </p>
         </div>
     </div>

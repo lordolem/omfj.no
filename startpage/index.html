@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="startpage.css">
-    <title>Startpage</title>
+    <link rel="stylesheet" href="style.css">
+    <title>OMFJ - Startpage</title>
 </head>
 <body>
-    <h1>Welcome back, Ole Magnus</h1>
-    <div>
-        
+    <div id="welcomeBox">
+        <p>Welcome back, Ole Magnus.</p>
     </div>
+
+    <div class="searchWrap">
+        <div class="search">
+           <input 
+                type="text" 
+                id="searchTerm" 
+                placeholder="Search the web..." 
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Search the web...'"
+            >
+           <button type="submit" id="searchButton" onclick="goToSite()"></button>
+        </div>
+     </div>
+
+     <div class="favSitesBox">
+        <div class="favSite">
+            <img />
+            <p>Gmail</p>
+        </div>
+     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

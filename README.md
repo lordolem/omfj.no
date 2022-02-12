@@ -1,6 +1,5 @@
 # omfj.no (No longer the source code)
 
-Changed to next js. Source code coming soon.
+Changed to nextjs, check out the repo [here](https://github.com/omfj/next-omfj.no).
 
-
-Visit the website [here](https://www.omfj.no/).
+Or... visit the website [here](https://omfj.no/).
